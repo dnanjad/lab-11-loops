@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var num;
+var current = -Infinity;
+for (var i=0; i<4; i++) {
+  num = parseInt(prompt("Number, please."));
+  if (num > current) {
+    current = num;
+  }
+}
+console.log("The largest number you entered was " + current + ".");
+</script>
+</body>
+</html>
